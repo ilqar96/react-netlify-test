@@ -19,9 +19,9 @@ function App() {
             <h3>Counter</h3>
 
             <div className="row mt-3">
-                <button onClick={() => onClickButton('plus')}>+</button>
-                <p>{count}</p>
                 <button onClick={() => onClickButton('minus')}>-</button>
+                <p>{count}</p>
+                <button onClick={() => onClickButton('plus')}>+</button>
             </div>
         </div>
     );

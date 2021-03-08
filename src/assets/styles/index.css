@@ -3,6 +3,10 @@
     padding:0;
 }
 
+body{
+    background: #fcfc92;
+}
+
 .container{
     width: 1200px;
     height: 100vh;
@@ -26,8 +30,12 @@
 }
 
 button{
-    width: 30px;
-    height: 30px;
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     margin:10px;
 }
